@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -11,7 +11,7 @@
 
 <body>
   <!-- Header Start -->
-  <header class="shadow justify-center items-center">
+  <header class="shadow bg-white bg-opacity-40 backdrop-blur-sm justify-center items-center fixed top-0 left-0 right-0">
     <div class="flex content px-12 py-3 justify-between items-center">
       <img class="w-28" src="assets/img/Logo_Ankara.png" alt="">
       <nav class="md:hidden flex">
@@ -21,10 +21,10 @@
       </nav>
       <nav class="hidden md:flex gap-7">
         <div class="navbar flex items-center gap-4">
-          <div class=""><a href="#">Servis Kami</a></div>
-          <div class=""><a href="#">Testimoni</a></div>
-          <div class=""><a href="#">Harga</a></div>
-          <div class=""><a href="#">Tentang Kami</a></div>
+          <div class=""><a href="#Servis Kami">Servis Kami</a></div>
+          <div class=""><a href="#Testimoni">Testimoni</a></div>
+          <div class=""><a href="#Harga">Harga</a></div>
+          <div class=""><a href="#Tentang Kami">Tentang Kami</a></div>
         </div>
         <div class="buttons flex items-center">
           <div class="btn bg-teal-950 text-white rounded-3xl justify-center items-center px-2 py-1 hover:bg-teal-600">
@@ -90,7 +90,7 @@
   <!-- Klien End -->
 
   <!-- Service Start -->
-  <div class="klien gap-16 flex flex-col text-center justify-center py-6 px-12">
+  <div id="Servis Kami" class="klien gap-16 flex flex-col text-center justify-center py-6 px-12">
     <div class="card-text flex flex-col justify-center gap-5">
       <h1 class="text-3xl font-bold text-teal-950">Service Kami</h1>
       <p class="text-gray-500 text-center">Kami berkomitmen untuk memberikan solusi yang dipersonalisasi dan
@@ -142,12 +142,12 @@
   <!-- Service End -->
 
   <!-- Testimoni Start -->
-  <div class="testimoni my-6 mx-12">
+  <div id="Testimoni" class="testimoni my-6 mx-12">
     <div class="top-konsultasi text-center pb-5">
       <h5 class="text-gray-500 md:text-base text-sm">345 orang senang dengan pekerjaan kami</h5>
       <h1 class="text-zinc-900 font-bold md:text-4xl text-2xl">Klien kami merasa puas memberikan testimoni</h1>
     </div>
-    <div class="bottom-konsultasi grid md:grid-cols-1 lg:grid-cols-3 gap-5">
+    <div class="bottom-konsultasi grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
       <img src="assets/img/Card 1.png" alt="Card 1">
       <img src="assets/img/Card 2.png" alt="Card 2">
       <img src="assets/img/Card 3.png" alt="Card 3">
@@ -176,7 +176,7 @@
   <!-- Konsultasi End -->
 
   <!-- Footer Start-->
-  <footer class="flex md:flex-row flex-col m-20 justify-between gap-10 items-start">
+  <footer id="Tentang Kami" class="flex md:flex-row flex-col m-20 justify-between gap-10 items-start">
     <div class="navigasi-grup flex md:flex-row flex-col md:text-left text-center justify-between gap-4">
       <div class="jelajah flex gap-4 flex-col">
         <h1 class="font-bold md:text-base text-xl">Jelajahi Services Kami</h1>
