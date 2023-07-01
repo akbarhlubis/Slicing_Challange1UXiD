@@ -1,181 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Ankara - UI Challange #1</title>
-  </head>
-  <body>
-    <!-- Header Start -->
-    <header class="shadow justify-center items-center">
-      <div class="flex content px-12 py-3 justify-between items-center">
-        <img class="w-28" src="assets/img/Logo_Ankara.png" alt="">
-        <nav class="md:hidden flex">
-          <a href="#">
-            <img src="assets/svg/Hamburger_icon.svg">
-          </a>
-        </nav>
-        <nav class="hidden md:flex gap-7">
-          <div class="navbar flex items-center gap-4">
-            <div class=""><a href="#">Servis Kami</a></div>
-            <div class=""><a href="#">Testimoni</a></div>
-            <div class=""><a href="#">Harga</a></div>
-            <div class=""><a href="#">Tentang Kami</a></div>
-          </div>
-          <div class="buttons flex items-center">
-            <div class="btn bg-teal-950 text-white rounded-3xl justify-center items-center px-2 py-1 hover:bg-teal-600">
-              <a href="#">Hubungi Kami</a>
-            </div>
-            <p class="pl-3">ID</p>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- Header End -->
-    <!-- Hero Start -->
-    <div class="hero flex flex-row max-md:flex-col px-12 py-24">
-      <div class="left-hero">
-        <h1 class="text-5xl font-bold text-teal-950 w-3/3">Growth Your Bussines With Ankara Digital Agency</h1>
-        <p class="text-gray-500 pt-4 text-xl">Kami adalah Digital Agency yang berkomitmen untuk membantu bisnis Anda meraih kesuksesan di dunia digital</p>
-        <div class="btns flex flex-col md:flex-row pt-4 justify-between">
-          <a class="py-2 px-4 rounded-full text-center bg-teal-950 text-white hover:bg-teal-600" href="#">Hubungi Kami</a>
-          <img class="py-5 px-4 bg-white rounded-2xl" src="assets/img/Praktisi.png" alt="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Ankara - UI Challange #1</title>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header class="shadow justify-center items-center">
+    <div class="flex content px-12 py-3 justify-between items-center">
+      <img class="w-28" src="assets/img/Logo_Ankara.png" alt="">
+      <nav class="md:hidden flex">
+        <a href="#">
+          <img src="assets/svg/Hamburger_icon.svg">
+        </a>
+      </nav>
+      <nav class="hidden md:flex gap-7">
+        <div class="navbar flex items-center gap-4">
+          <div class=""><a href="#">Servis Kami</a></div>
+          <div class=""><a href="#">Testimoni</a></div>
+          <div class=""><a href="#">Harga</a></div>
+          <div class=""><a href="#">Tentang Kami</a></div>
         </div>
-      </div>
-      <div class="right-hero">
-        <img src="assets/img/Hero Image.png" alt="">
+        <div class="buttons flex items-center">
+          <div class="btn bg-teal-950 text-white rounded-3xl justify-center items-center px-2 py-1 hover:bg-teal-600">
+            <a href="#">Hubungi Kami</a>
+          </div>
+          <p class="pl-3">ID</p>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header End -->
+  <!-- Hero Start -->
+  <div class="hero flex flex-row max-md:flex-col px-12 gap-10 py-24">
+    <div class="left-hero">
+      <h1 class="text-5xl font-bold text-teal-950 w-3/3">Growth Your Bussines With Ankara Digital Agency</h1>
+      <p class="text-gray-500 pt-4 md:text-xl">Kami adalah Digital Agency yang berkomitmen untuk membantu bisnis Anda
+        meraih kesuksesan di dunia digital</p>
+      <div class="btn h-16 items-center flex flex-col md:flex-row pt-4 justify-between">
+        <a class="py-2 w-full px-4 rounded-full text-center bg-teal-950 text-white hover:bg-teal-600" href="#">Hubungi
+          Kami</a>
+        <img class="py-5 px-4 bg-white rounded-2xl" src="assets/img/Praktisi.png" alt="">
       </div>
     </div>
-    <!-- Hero End -->
+    <div class="right-hero">
+      <img src="assets/img/Hero Image.png" alt="Hero Image">
+    </div>
+  </div>
+  <!-- Hero End -->
 
-    <!-- Klien Start -->
-    <div class="klien flex flex-col text-center justify-center py-6 px-12 gap-5 bg-teal-950">
-      <div class="card-text">
-        <h1 class="text-3xl font-bold text-white">Klien Kami</h1>
-        <p class="text-white">Beberapa perusahaan besar yang sudah bekerjasama dengan Ankara Digital Agency</p>
+  <!-- Klien Start -->
+  <div class="klien flex flex-col text-center justify-center py-6 px-12 gap-5 bg-teal-950">
+    <div class="card-text">
+      <h1 class="text-3xl font-bold text-white">Klien Kami</h1>
+      <p class="text-white">Beberapa perusahaan besar yang sudah bekerjasama dengan Ankara Digital Agency</p>
+    </div>
+    <div class="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/BI.png" alt="Bank Indonesia">
       </div>
-      <div class="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/BI.png" alt="Bank Indonesia">
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/Astra.png" alt="Astra">
+      </div>
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/BCA.png" alt="BCA">
+      </div>
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/TigaRoda.png" alt="Tiga Roda">
+      </div>
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/SushiTei.png" alt="Sushi Tei">
+      </div>
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/Sharp.png" alt="Sharp">
+      </div>
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/SushiTei.png" alt="Kemendikbud">
+      </div>
+      <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
+        <img src="assets/img/Indofood.png" alt="Indofood">
+      </div>
+    </div>
+  </div>
+  <!-- Klien End -->
+
+  <!-- Service Start -->
+  <div class="klien gap-16 flex flex-col text-center justify-center py-6 px-12">
+    <div class="card-text flex flex-col justify-center gap-5">
+      <h1 class="text-3xl font-bold text-teal-950">Service Kami</h1>
+      <p class="text-gray-500 text-center">Kami berkomitmen untuk memberikan solusi yang dipersonalisasi dan
+        berorientasi pada hasil. 400+ client kami merasa puas.</p>
+    </div>
+    <div class="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div
+        class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
+        <img class="w-8 mb-6" src="assets/img/App_Web Dev.png" alt="Logo 1">
+        <h1 class="font-medium text-xl">App dan Web Development</h1>
+        <p class="text-gray-500">Membangun aplikasi dan situs web menarik, responsif, dan fungsional.</p>
+      </div>
+      <div
+        class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
+        <img class="w-8 mb-6" src="assets/img/Social Media Management.png" alt="">
+        <h1 class="font-medium text-xl">Social Media Management</h1>
+        <p class="text-gray-500">Mengelola kehadiran online melalui media sosial, dengan konten menarik dan pengelolaan
+          komunitas yang efektif.</p>
+      </div>
+      <div
+        class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
+        <img class="w-8 mb-6" src="assets/img/SEO.png" alt="">
+        <h1 class="font-medium text-xl">Search Engine Optimization</h1>
+        <p class="text-gray-500">Meningkatkan peringkat situs web di mesin pencari utama untuk meningkatkan lalu lintas
+          organik dan visibilitas online.</p>
+      </div>
+      <div
+        class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
+        <img class="w-8 mb-6" src="assets/img/Social Media Marketing.png" alt="">
+        <h1 class="font-medium text-xl">Social Media Marketing</h1>
+        <p class="text-gray-500">Merancang dan melaksanakan kampanye pemasaran yang efektif melalui media sosial.</p>
+      </div>
+      <div
+        class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
+        <img class="w-8 mb-6" src="assets/img/Digital Adversiting.png" alt="">
+        <h1 class="font-medium text-xl">Digital Advertising</h1>
+        <p class="text-gray-500">Menyediakan solusi iklan digital yang canggih dan terukur di platform seperti Google
+          Ads dan Facebook Ads.</p>
+      </div>
+      <div
+        class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
+        <img class="w-8 mb-6" src="assets/img/Digital Consultant.png" alt="">
+        <h1 class="font-medium text-xl">Digital Consultant</h1>
+        <p class="text-gray-500"> Memberikan saran dan strategi dalam pengembangan produk, pemasaran digital,
+          pengoptimalan situs web, dan pengelolaan merek.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Service End -->
+
+  <!-- Testimoni Start -->
+  <div class="testimoni my-6 mx-12">
+    <div class="top-konsultasi text-center pb-5">
+      <h5 class="text-gray-500 md:text-base text-sm">345 orang senang dengan pekerjaan kami</h5>
+      <h1 class="text-zinc-900 font-bold md:text-4xl text-2xl">Klien kami merasa puas memberikan testimoni</h1>
+    </div>
+    <div class="bottom-konsultasi grid md:grid-cols-1 lg:grid-cols-3 gap-5">
+      <img src="assets/img/Card 1.png" alt="Card 1">
+      <img src="assets/img/Card 2.png" alt="Card 2">
+      <img src="assets/img/Card 3.png" alt="Card 3">
+    </div>
+  </div>
+  </div>
+  <!-- Testimoni End -->
+
+  <!-- Konsultasi Start -->
+  <div class="kontak-konsultasi gap-16 flex flex-col my-6 mx-12 bg-teal-900 rounded-md items-center">
+    <div class="formulir-konsultasi flex flex-col gap-3 justify-center m-10 w-4/5">
+      <h1 class="text-center font-extrabold text-2xl md:text-4xl pb-6 text-white">Konsultasikan bisnis anda Bersama
+        Anakara 1# Digital Agency</h1>
+      <form class="grid md:grid-cols-1 lg:grid-cols-3 gap-3">
+        <input
+          class="bg-teal-950 rounded-md h-16 py-2 px-2 w-full text-white focus:outline-none focus:ring focus:ring-teal-400 invalid:focus:text-red-400 invalid:focus:ring-red-400"
+          type="text" placeholder="Nama Anda">
+        <input
+          class="bg-teal-950 rounded-md h-16 py-2 px-2 w-full text-white focus:outline-none focus:ring focus:ring-teal-400 invalid:focus:text-red-400 invalid:focus:ring-red-400"
+          type="email" name="" id="" placeholder="Email Anda">
+        <button
+          class="rounded-md h-16 py-2 px-2 w-full bg-white font-bold hover:bg-teal-500 hover:text-white">Konsultasi</button>
+      </form>
+    </div>
+  </div>
+  <!-- Konsultasi End -->
+
+  <!-- Footer Start-->
+  <footer class="flex md:flex-row flex-col m-20 justify-between gap-10 items-start">
+    <div class="navigasi-grup flex md:flex-row flex-col md:text-left text-center justify-between gap-4">
+      <div class="jelajah flex gap-4 flex-col">
+        <h1 class="font-bold md:text-base text-xl">Jelajahi Services Kami</h1>
+        <div class="paragraf flex flex-col text-gray-500 gap-2">
+          <p>App dan Web Development</p>
+          <p>Social Media Management</p>
+          <p>Search Engine Optimization (SEO)</p>
+          <p>Social Media Marketing</p>
+          <p>Digital Advertising</p>
+          <p>Digital Consultant</p>
         </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/Astra.png" alt="Astra">
-        </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/BCA.png" alt="BCA">
-        </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/TigaRoda.png" alt="Tiga Roda">
-        </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/SushiTei.png" alt="Sushi Tei">
-        </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/Sharp.png" alt="Sharp">
-        </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/SushiTei.png" alt="Kemendikbud">
-        </div>
-        <div class="card-img card-img flex justify-center py-8 px-4 bg-white rounded-2xl">
-          <img src="assets/img/Indofood.png" alt="Indofood">
+      </div>
+      <div class="perusahaan flex gap-4 flex-col">
+        <h1 class="font-bold md:text-base text-xl">Perusahaan</h1>
+        <div class="paragraf flex flex-col text-gray-500 gap-2">
+          <p>App dan Web Development</p>
+          <p>Social Media Management</p>
+          <p>Search Engine Optimization (SEO)</p>
+          <p>Social Media Marketing</p>
+          <p>Digital Advertising</p>
+          <p>Digital Consultant</p>
         </div>
       </div>
     </div>
-    <!-- Klien End -->
+    <div class="ringkasan flex flex-col md:items-end items-center md:text-right text-center md:w-5/12">
+      <img class="w-36" src="assets/img/Logo_Ankara.png" alt="Logo Ankara">
+      <p class="text-gray-500">Ankara Digital Agency no 1# di Indonesia. Merupakan Digital Agency yang berlokasi di
+        Lampung, </p>
+      <div class="social-media">
 
-    <!-- Service Start -->
-    <div class="klien gap-16 flex flex-col text-center justify-center py-6 px-12">
-      <div class="card-text flex flex-col justify-center gap-5">
-        <h1 class="text-3xl font-bold text-teal-950">Service Kami</h1>
-        <p class="text-gray-500 text-center">Kami berkomitmen untuk memberikan solusi yang dipersonalisasi dan berorientasi pada hasil. 400+ client kami merasa puas.</p>
-      </div>
-      <div class="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        <div class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
-          <img class="w-8 mb-6" src="assets/img/App_Web Dev.png" alt="Logo 1">
-          <h1 class="font-medium text-xl">App dan Web Development</h1>
-          <p class="text-gray-500">Membangun aplikasi dan situs web menarik, responsif, dan fungsional.</p>
-        </div>
-        <div class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
-          <img class="w-8 mb-6" src="assets/img/Social Media Management.png" alt="">
-          <h1 class="font-medium text-xl">Social Media Management</h1>
-          <p class="text-gray-500">Mengelola kehadiran online melalui media sosial, dengan konten menarik dan pengelolaan komunitas yang efektif.</p>
-        </div>
-        <div class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
-          <img class="w-8 mb-6" src="assets/img/SEO.png" alt="">
-          <h1 class="font-medium text-xl">Search Engine Optimization</h1>
-          <p class="text-gray-500">Meningkatkan peringkat situs web di mesin pencari utama untuk meningkatkan lalu lintas organik dan visibilitas online.</p>
-        </div>
-        <div class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
-          <img class="w-8 mb-6" src="assets/img/Social Media Marketing.png" alt="">
-          <h1 class="font-medium text-xl">Social Media Marketing</h1>
-          <p class="text-gray-500">Merancang dan melaksanakan kampanye pemasaran yang efektif melalui media sosial.</p>
-        </div>
-        <div class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
-          <img class="w-8 mb-6" src="assets/img/Digital Adversiting.png" alt="">
-          <h1 class="font-medium text-xl">Digital Advertising</h1>
-          <p class="text-gray-500">Menyediakan solusi iklan digital yang canggih dan terukur di platform seperti Google Ads dan Facebook Ads.</p>
-        </div>
-        <div class="card-service items-center rounded-md py-4 px-4 bg-gray-100 hover:shadow-lg hover:outline-teal-500 flex flex-col lg:w-96">
-          <img class="w-8 mb-6" src="assets/img/Digital Consultant.png" alt="">
-          <h1 class="font-medium text-xl">Digital Consultant</h1>
-          <p class="text-gray-500"> Memberikan saran dan strategi dalam pengembangan produk, pemasaran digital, pengoptimalan situs web, dan pengelolaan merek.</p>
-        </div>
       </div>
     </div>
-    <!-- Service End -->
+  </footer>
+  <!-- Footer End-->
 
-    <!-- Testimoni Start -->
-
-    <!-- Testimoni End -->
-
-    <!-- Konsultasi Start -->
-    <div class="kontak-konsultasi gap-16 flex flex-col my-6 mx-12 bg-teal-900 rounded-md items-center">
-      <div class="formulir-konsultasi flex flex-col gap-3 justify-center m-10 w-4/5">
-        <h1 class="text-center font-extrabold text-4xl text-white">Konsultasikan bisnis anda Bersama Anakara 1# Digital Agency</h1>
-        <form class="grid md:grid-cols-1 lg:grid-cols-3 gap-3">
-          <input class="bg-teal-950 rounded-md h-16 py-2 px-2 w-full text-white focus:outline-none focus:ring focus:ring-teal-400 invalid:focus:text-red-400 invalid:focus:ring-red-400" type="text" placeholder="Nama Anda">
-          <input class="bg-teal-950 rounded-md h-16 py-2 px-2 w-full text-white focus:outline-none focus:ring focus:ring-teal-400 invalid:focus:text-red-400 invalid:focus:ring-red-400" type="email" name="" id="" placeholder="Email Anda">
-          <button class="rounded-md h-16 py-2 px-2 w-full bg-white font-bold hover:bg-teal-500 hover:text-white">Konsultasi</button>
-        </form>
-      </div>
-    </div>
-    <!-- Konsultasi End -->
-
-    <!-- Footer Start-->
-    <footer class="flex md:flex-row flex-col m-20 justify-between gap-10 items-start">
-      <div class="navigasi-grup flex md:flex-row flex-col justify-between gap-4">
-        <div class="jelajah flex gap-4 flex-col">
-          <h1 class="font-bold md:text-base text-xl">Jelajahi Services Kami</h1>
-          <div class="paragraf flex flex-col text-gray-500 gap-2">
-            <p>App dan Web Development</p>
-            <p>Social Media Management</p>
-            <p>Search Engine Optimization (SEO)</p>
-            <p>Social Media Marketing</p>
-            <p>Digital Advertising</p>
-            <p>Digital Consultant</p>
-          </div>
-        </div>
-        <div class="perusahaan flex gap-4 flex-col">
-          <h1 class="font-bold md:text-base text-xl">Perusahaan</h1>
-          <div class="paragraf flex flex-col text-gray-500 gap-2">
-            <p>App dan Web Development</p>
-            <p>Social Media Management</p>
-            <p>Search Engine Optimization (SEO)</p>
-            <p>Social Media Marketing</p>
-            <p>Digital Advertising</p>
-            <p>Digital Consultant</p>
-          </div>
-        </div>
-      </div>
-      <div class="ringkasan flex flex-col md:items-end items-center md:text-right text-center md:w-5/12">
-        <img class="w-36" src="assets/img/Logo_Ankara.png" alt="Logo Ankara">
-        <p class="text-gray-500">Ankara Digital Agency no 1# di Indonesia. Merupakan Digital Agency yang berlokasi diLampung, </p>
-        <div class="social-media">
-
-        </div>
-      </div>
-    </footer>
-    <!-- Footer End-->
 </html>
